@@ -2,18 +2,22 @@
     ChocolateBrown: #594A47
     BiscuitBrown: #D4C0AB
     WhiteBrown: #F2EFE5
+    OrangeBrown: #E3B273
     
     font-family: 'Pacifico', cursive
     font-family: 'Quicksand', sans-serif
 */
-
+html {
+    scroll-behavior: auto;
+}
 body {
-    background-color: #D4C0AB;
+    height: 3000px; /* Used to enable scrolling */
+    background: linear-gradient(180deg, #D4C0AB 0%, #E3B273 70%, #D4C0AB 90%);
     font-family: 'Quicksand', sans-serif;   
     color: #342D29;
 }
 #main_nav {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-family: 'Quicksand', sans-serif;
 }
 #main_nav a {
@@ -21,15 +25,16 @@ body {
     font-weight: 700;
 }
 #main_nav a:hover {
-    color: #D4C0AB;
+    color: #E3B273;
     font-weight: 700;
     transition: .5s ease-in;
     border-bottom: 3px solid #594A47;
 
 }
-#main_nav .nav-item.active {
-    border-bottom: 3px solid #594A47;
+#main_nav .nav-item.active a{
+    color: #E3B273;
 }
+
 #logo:hover {
     -webkit-filter: blur(1.5px); 
     filter: blur(1.5px);
@@ -48,3 +53,33 @@ body {
     font-weight: 700;
     transition: .5s ease-in;
 }
+#menu_food_button {
+    background-color: #D4C0AB;
+    color: #594A47;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+#menu_food_button:hover {
+    background-color: #342D29;
+    color: #F2EFE5;
+    font-weight: 400;
+    transform: scale(1.2);
+    transition: .5s ease-in;
+}
+
+  
+.navbar-toggler {
+    border: none;
+    
+  } 
+#toggle_nav_icon {
+      font-family: 'Pacifico', cursive;
+      font-size: 2rem;
+      color: #594A47;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }

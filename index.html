@@ -17,26 +17,35 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light justify-content-between" style="background-color: #e3f2fd;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span id="toggle_nav_icon"><i class="fa fa-paw" style="color:#342D29; font-size:2rem; margin-right:20px;"></i>Menu</span>
             </button>
-            <a class="navbar-brand mx-auto" href="#">
+            <a class="navbar-brand ml-5" href="#">
                 <img id="logo" src="img/animedogecafe_large_logo.png" width="150" height="150"  alt="">
             </a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul id="main_nav" class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link px-3" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item px-5">
+                <li class="nav-item px-3">
                   <a class="nav-link" href="#">Link</a>
                 </li>
               </ul>
               <form class="form-inline">
-                <button id="order_button" class="btn " type="button">Order Now</button>
+                <button id="order_button" class="btn mr-5" type="button">Order Now</button>
               </form>
             </div>
     </nav>
-
+    <div class="text-center bg-image mb-5">
+      <img src="img/anime_dog_banner.png" class="img-fluid" alt="Responsive image">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <a id="menu_food_button" class="btn btn-lg my-3" href="#!" role="button">View Menu</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
