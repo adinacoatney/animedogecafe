@@ -1,0 +1,50 @@
+/*  DeepBrown: #342D29
+    ChocolateBrown: #594A47
+    BiscuitBrown: #D4C0AB
+    WhiteBrown: #F2EFE5
+    
+    font-family: 'Pacifico', cursive
+    font-family: 'Quicksand', sans-serif
+*/
+
+body {
+    background-color: #D4C0AB;
+    font-family: 'Quicksand', sans-serif;   
+    color: #342D29;
+}
+#main_nav {
+    font-size: 1.4rem;
+    font-family: 'Quicksand', sans-serif;
+}
+#main_nav a {
+    color: #594A47;
+    font-weight: 700;
+}
+#main_nav a:hover {
+    color: #D4C0AB;
+    font-weight: 700;
+    transition: .5s ease-in;
+    border-bottom: 3px solid #594A47;
+
+}
+#main_nav .nav-item.active {
+    border-bottom: 3px solid #594A47;
+}
+#logo:hover {
+    -webkit-filter: blur(1.5px); 
+    filter: blur(1.5px);
+    transition: 1.5s ease-in;
+    transition: 1.5s ease-out;
+
+}
+#order_button {
+    background-color: #342D29;
+    color: #F2EFE5;
+    font-family: 'Quicksand', sans-serif;
+}
+#order_button:hover {
+    background-color: #D4C0AB;
+    color: #594A47;
+    font-weight: 700;
+    transition: .5s ease-in;
+}
