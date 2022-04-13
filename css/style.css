@@ -90,12 +90,19 @@ body {
       outline: none;
       box-shadow: none;
   }
+  
+.bg-cover {
+    background-attachment: static;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
   footer {
     background: #342D29;
     color: #F2EFE5;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-
 }
 .footer-content h3{
     font-size: 2.1rem;
@@ -156,9 +163,10 @@ body {
 }
 .footer-bottom p{
     color: #342D29;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
 .footer-bottom a:hover {
     color: #E3B273;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
